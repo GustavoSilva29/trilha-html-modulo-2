@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de agendamento</title>
+    <style>
+        table{
+            -webkit-box-shadow: 12px 12px 6px 5px rgba(0,0,0,0.63); 
+            box-shadow: 12px 12px 6px 5px rgba(0,0,0,0.63);
+        }
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+        table tfoot td{
+        background-color: lightgray;
+        }
+        table tbody tr:nth-child(even) td{
+        background-color: rgb(171, 171, 171);
+        }
+        table tbody tr:hover td{
+        background-color: rgb(75, 75, 75);}
+    </style>
+</head>
+<body style="background-color: rgb(39, 195, 251);">
+    <table  width ="350" cellspacing="1" >
+       
+        <thead>
+            <tr>
+                <th colspan="4">Horário de Atendimento  </th>
+            </tr>
+            <tr>
+                <th>Serviços</th>
+                <th>Segunda a Sexta</th>
+                <th>Sábados</th>
+                <th>Feriados</th>
+            </tr>
+        </thead>    
+        <tbody>
+        
+        <tr>
+            <td>Clínica geral</td>
+            <td>08h - 19h</td>
+            <td>08h - 14h</td>
+            <td>08h - 14h</td>
+        </tr>
+        <tr>
+            <td>Psícologia</td>
+            <td>08h - 19h</td>
+            <td>08h - 14h</td>
+            <td>08h - 14h</td>
+        </tr>
+        <tr>
+            <td>Pediatria</td>
+            <td>08h - 19h</td>
+            <td>08h - 18h</td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <td>Oftalmologia</td>
+            <td>08h - 19h</td>
+            <td>08h - 18h</td>
+            <td> - </td>
+        </tr>
+        </tbody>
+       
+    </table>
+    <br>
+<a href="template.html">Voltar a Home</a>
+</body>
+</html>
